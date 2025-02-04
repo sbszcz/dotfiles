@@ -20,3 +20,5 @@ else
     echo "Ghostty is not installed. Installing..."
     brew install --cask ghostty
 fi
+
+brew install --cask font-hack-nerd-font
