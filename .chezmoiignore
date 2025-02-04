@@ -1,0 +1,14 @@
+# ╭──────────────────────────────────────────────────────────╮
+# │ CHEZMOI IGNORE CONFIG                                    │
+# ╰──────────────────────────────────────────────────────────╯
+
+# MacOS only
+{{ if ne .chezmoi.os "darwin" }}
+.chezmoiscripts/macos/**
+{{ end }}
+
+
+# Linux only
+{{ if ne .chezmoi.os "linux" }}
+.chezmoiscripts/linux/**
+{{ end }}
