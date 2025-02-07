@@ -9,6 +9,3 @@ else
     echo "Homebrew is not installed. Installing..."
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
-
-
-#brew install --cask font-hack-nerd-font
