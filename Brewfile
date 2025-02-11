@@ -15,6 +15,8 @@ brew "neovim"
 brew "kubernetes-cli"
 brew "go"
 brew "node"
+brew "ansible"
+brew "fd"
 
 cask "1password"
 cask "1password-cli"
