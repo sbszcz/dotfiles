@@ -1,4 +1,5 @@
 tap "homebrew/bundle"
+tap "dagger/homebrew-tap"
 
 brew "azure-cli"
 brew "bash"
@@ -18,6 +19,8 @@ brew "node"
 brew "ansible"
 brew "fd"
 brew "ripgrep"
+brew "dagger"
+
 
 cask "1password"
 cask "1password-cli"
