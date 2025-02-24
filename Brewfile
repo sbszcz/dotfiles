@@ -20,6 +20,9 @@ brew "ansible"
 brew "fd"
 brew "ripgrep"
 brew "dagger"
+brew "tig"
+brew "git-machete"
+brew "difftastic"
 
 
 cask "1password"
