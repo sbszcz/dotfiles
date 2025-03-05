@@ -23,6 +23,7 @@ brew "dagger"
 brew "tig"
 brew "git-machete"
 brew "difftastic"
+brew "rustup"
 
 
 cask "1password"

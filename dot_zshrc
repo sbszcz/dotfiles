@@ -62,6 +62,8 @@ eval "$(starship init zsh)"
 # Init zoxide and use j to Jump arrount
 eval "$(zoxide init zsh --cmd j)"
 
+# rust toolchain
+export PATH="$HOME/.cargo/bin:$PATH"
 
 ############################################
 
