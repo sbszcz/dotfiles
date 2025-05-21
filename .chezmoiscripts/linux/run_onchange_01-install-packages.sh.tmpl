@@ -1,4 +1,8 @@
 #!/bin/sh
 
+# COPR repos
+sudo dnf -y copr enable chronoscrat/starship
+sudo dnf -y copr enable alternateved/eza
+
 # DNF package file hash: {{ include "DnfPackages" | sha256sum }}
 sudo dnf -y install $(<{{ joinPath .chezmoi.sourceDir "DnfPackages" | quote }})

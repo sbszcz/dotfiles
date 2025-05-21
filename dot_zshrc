@@ -52,10 +52,6 @@ bindkey "^U" backward-kill-line
 
 #source ~/Work/clibook/clibook-zsh-widgets.zsh
 
-# Init jenv
-export PATH="$HOME/.jenv/bin:$PATH"
-eval "$(jenv init -)"
-
 # Init starship
 eval "$(starship init zsh)"
 
