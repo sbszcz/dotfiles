@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# DNF package file hash: {{ include "DnfPackages" | sha256sum }}
+sudo dnf -y install $(<{{ joinPath .chezmoi.sourceDir "DnfPackages" | quote }})
