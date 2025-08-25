@@ -5,10 +5,15 @@ difftastic
 eza
 fzf
 go
-go
 neovim
 ripgrep
 starship
 zoxide
 zsh
 tree-sitter-cli
+dnf-plugins-core
+docker-ce 
+docker-ce-cli 
+containerd.io 
+docker-buildx-plugin 
+docker-compose-plugin

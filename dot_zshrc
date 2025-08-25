@@ -61,6 +61,11 @@ eval "$(zoxide init zsh --cmd j)"
 # rust toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 
+
+# SDKMAN 
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
 ############################################
 
 #                ALIASES
