@@ -8,8 +8,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 export XDG_CACHE_HOME=$HOME/.cache
 export XDG_DATA_HOME=$HOME/.local/share
 
-#export PATH="$HOME/go/bin":$PATH
-
 zstyle ':completion:*' completer _complete _ignored
 zstyle :compinstall filename '/home/sebastian/.zshrc'
 
@@ -61,10 +59,8 @@ eval "$(zoxide init zsh --cmd j)"
 # rust toolchain
 export PATH="$HOME/.cargo/bin:$PATH"
 
-
-# SDKMAN 
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+# mise-en-place
+eval "$(mise activate zsh)" 
 
 ############################################
 
