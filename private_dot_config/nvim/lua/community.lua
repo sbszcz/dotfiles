@@ -16,4 +16,5 @@ return {
 	{ import = "astrocommunity.pack.ansible" }, -- import/override with your plugins folder
 	{ import = "astrocommunity.colorscheme.catppuccin" },
 	{ import = "astrocommunity.recipes.heirline-mode-text-statusline" },
+	{ import = "astrocommunity.editing-support.copilotchat-nvim" },
 }
