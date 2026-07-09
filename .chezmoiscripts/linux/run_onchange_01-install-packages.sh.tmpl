@@ -7,6 +7,7 @@ sudo dnf config-manager addrepo --from-repofile=https://download.docker.com/linu
 sudo dnf -y copr enable chronoscrat/starship
 sudo dnf -y copr enable alternateved/eza
 sudo dnf -y copr enable jdxcode/mise
+sudo dnf -y copr enable pgdev/zed 
 
 # DNF package file hash: {{ include "DnfPackages" | sha256sum }}
 sudo dnf -y install $(<{{ joinPath .chezmoi.sourceDir "DnfPackages" | quote }})
